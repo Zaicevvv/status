@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/status/static/css/main.dfc1b2f8.chunk.css",
-    "main.js": "/status/static/js/main.ccd441a2.chunk.js",
-    "main.js.map": "/status/static/js/main.ccd441a2.chunk.js.map",
+    "main.css": "/status/static/css/main.93c0cbda.chunk.css",
+    "main.js": "/status/static/js/main.9439d926.chunk.js",
+    "main.js.map": "/status/static/js/main.9439d926.chunk.js.map",
     "runtime-main.js": "/status/static/js/runtime-main.30ea51bd.js",
     "runtime-main.js.map": "/status/static/js/runtime-main.30ea51bd.js.map",
-    "static/js/2.7295ede4.chunk.js": "/status/static/js/2.7295ede4.chunk.js",
-    "static/js/2.7295ede4.chunk.js.map": "/status/static/js/2.7295ede4.chunk.js.map",
+    "static/js/2.ac48fff0.chunk.js": "/status/static/js/2.ac48fff0.chunk.js",
+    "static/js/2.ac48fff0.chunk.js.map": "/status/static/js/2.ac48fff0.chunk.js.map",
     "index.html": "/status/index.html",
-    "precache-manifest.24f82101ad7eb66459e4426743e5be34.js": "/status/precache-manifest.24f82101ad7eb66459e4426743e5be34.js",
+    "precache-manifest.a4386c9d04404441c1ec00e2141eddad.js": "/status/precache-manifest.a4386c9d04404441c1ec00e2141eddad.js",
     "service-worker.js": "/status/service-worker.js",
-    "static/css/main.dfc1b2f8.chunk.css.map": "/status/static/css/main.dfc1b2f8.chunk.css.map",
-    "static/js/2.7295ede4.chunk.js.LICENSE.txt": "/status/static/js/2.7295ede4.chunk.js.LICENSE.txt",
+    "static/css/main.93c0cbda.chunk.css.map": "/status/static/css/main.93c0cbda.chunk.css.map",
+    "static/js/2.ac48fff0.chunk.js.LICENSE.txt": "/status/static/js/2.ac48fff0.chunk.js.LICENSE.txt",
+    "static/media/bang.webp": "/status/static/media/bang.e1ef6742.webp",
     "static/media/dvig.jpg": "/status/static/media/dvig.2dde8e0d.jpg",
     "static/media/gbo.jpg": "/status/static/media/gbo.07af9d66.jpg",
+    "static/media/main.jpg": "/status/static/media/main.94d9b0b7.jpg",
+    "static/media/tires.jpg": "/status/static/media/tires.d5090a55.jpg",
     "static/media/turbo.jpg": "/status/static/media/turbo.e5c98cdc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.30ea51bd.js",
-    "static/js/2.7295ede4.chunk.js",
-    "static/css/main.dfc1b2f8.chunk.css",
-    "static/js/main.ccd441a2.chunk.js"
+    "static/js/2.ac48fff0.chunk.js",
+    "static/css/main.93c0cbda.chunk.css",
+    "static/js/main.9439d926.chunk.js"
   ]
 }
