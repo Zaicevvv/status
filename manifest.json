@@ -3,19 +3,19 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "src": "https://static.wixstatic.com/media/ef4bd0_c66d96a4e3a94d6ca11aaffa962052a4~mv2.png/v1/fill/w_94,h_49,al_c,q_85,usm_0.66_1.00_0.01/Tune-Up-300x300_edited.webp",
+      "sizes": "44x64 22x32 18x24 10x16",
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "https://static.wixstatic.com/media/ef4bd0_c66d96a4e3a94d6ca11aaffa962052a4~mv2.png/v1/fill/w_94,h_49,al_c,q_85,usm_0.66_1.00_0.01/Tune-Up-300x300_edited.webp",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "152x192"
     },
     {
-      "src": "logo512.png",
+      "src": "https://static.wixstatic.com/media/ef4bd0_c66d96a4e3a94d6ca11aaffa962052a4~mv2.png/v1/fill/w_94,h_49,al_c,q_85,usm_0.66_1.00_0.01/Tune-Up-300x300_edited.webp",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "362x512"
     }
   ],
   "start_url": ".",
