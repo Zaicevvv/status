@@ -1,0 +1,88 @@
+.header {
+  padding: 0 10px;
+  padding-top: 20px;
+}
+
+.hat {
+  display: flex;
+  border-bottom: 1px solid white;
+}
+
+.logoImg {
+  background-color: #111613;
+  height: 50px;
+  width: 80px;
+}
+
+.logo {
+  padding-left: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.nav {
+  padding-top: 40px;
+  width: 600px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.navItem:hover {
+  color: rgb(197, 38, 38);
+}
+
+.btns {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 400;
+  border: 1px solid rgb(197, 38, 38);
+  padding: 10px;
+  color: rgb(197, 38, 38);
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.btn:hover {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+@media (min-width: 768px) {
+  .header {
+    background: linear-gradient(to left, #181a1b, #111613);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 90%;
+    padding: 0 80px;
+    padding-top: 20px;
+    justify-content: start;
+  }
+
+  .logoImg {
+    height: 60px;
+    width: 100px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .btns {
+    width: 600px;
+  }
+}

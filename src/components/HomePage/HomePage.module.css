@@ -1,0 +1,253 @@
+html {
+  background: linear-gradient(to left, #181a1b, #111613);
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+}
+
+.wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.mainImg {
+  height: auto;
+  width: 100vw;
+}
+
+.textSection {
+  color: white;
+  text-align: center;
+  width: 340px;
+  margin: 0 auto;
+}
+
+.textSectionTitle {
+  margin-bottom: 20px;
+  font-size: 34px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.textSectionSpan {
+  line-height: 1.4;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.textSectionP {
+  line-height: 1.6;
+  margin-bottom: 70px;
+}
+
+.optionsSection {
+  background: linear-gradient(to left, #232b30, #1e2521);
+  padding: 20px 0;
+}
+
+.list {
+  width: 300px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 40px;
+}
+
+.optionsBtn {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 24px;
+  border: 1px solid rgb(197, 38, 38);
+  padding: 10px;
+  color: rgb(197, 38, 38);
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.optionsBtn:hover {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  color: rgb(197, 38, 38);
+}
+
+.time {
+  background-image: url('../../images/tires.jpg');
+}
+
+.timeWrap {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 50px;
+}
+
+.timeInfo {
+  color: white;
+  font-weight: 600;
+  font-size: 20;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.contactSection {
+  padding-top: 20px;
+}
+
+.contacts {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.contactListItem {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  display: block;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+}
+
+.miniIcon {
+  width: 20px;
+  height: 20px;
+}
+
+.contactTitle {
+  margin-bottom: 20px;
+}
+
+.contactTitle::before {
+  display: block;
+  content: '';
+  height: 3px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(175, 238, 50);
+}
+
+.link {
+  margin: 0;
+  padding-left: 5px;
+  text-decoration: none;
+  color: rgb(197, 38, 38);
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.link:hover {
+  color: blueviolet;
+}
+
+.map {
+  height: 150px;
+  width: 300px;
+  line-height: 150px;
+  margin: 0 auto;
+  border: 1px solid rgb(34, 34, 124);
+  text-align: center;
+  color: rgb(34, 34, 124);
+}
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.logoImg {
+  background-color: #111613;
+  height: 50px;
+  width: 80px;
+}
+
+.logo {
+  padding-left: 10px;
+  color: white;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .mapSection,
+  .contactSection,
+  .optionsSection {
+    position: relative;
+  }
+
+  .anchor {
+    position: absolute;
+    top: -175px;
+  }
+
+  .mainImg {
+    padding-top: 176px;
+    width: 98.9vw;
+  }
+
+  .textSection {
+    width: 785px;
+  }
+
+  .textSectionTitle {
+    font-size: 80px;
+    line-height: 1.6;
+  }
+
+  .textSectionSpan {
+    line-height: 3;
+    font-size: 22px;
+  }
+
+  .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .listItem {
+    width: 31%;
+  }
+
+  .timeWrap {
+    padding: 150px;
+    position: relative;
+  }
+
+  .logoImg {
+    height: 60px;
+    width: 100px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+}

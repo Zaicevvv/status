@@ -1,0 +1,130 @@
+html {
+  background: linear-gradient(to left, #181a1b, #111613);
+  font-family: Montserrat, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.allOptionsSection {
+  color: white;
+  width: 340px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btns {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.btn {
+  text-decoration: none;
+  font-weight: 400;
+  margin-bottom: 10px;
+  border: 1px solid rgb(197, 38, 38);
+  padding: 10px;
+  color: rgb(197, 38, 38);
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.btn:hover {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+.allOptionsSectionTitle {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 34px;
+  font-weight: normal;
+  line-height: 1.6;
+}
+
+.allOptionsSectionSpan {
+  display: block;
+  line-height: 1.4;
+  font-size: 26px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.allOptionsSectionP {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.allOptionsSectionList {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.topAnchor {
+  position: fixed;
+  text-decoration: none;
+  right: 30px;
+  display: block;
+  border: 1px solid rgb(197, 38, 38);
+  padding: 0 15px;
+  padding-bottom: 4px;
+  border-radius: 25px;
+  color: rgb(197, 38, 38);
+  font-size: 30px;
+  font-weight: 900;
+  transition: all 0.3s ease-out 0.1s;
+}
+
+.topAnchor:hover {
+  color: blueviolet;
+  border: 1px solid blueviolet;
+}
+
+@media (max-width: 768px) {
+  .topAnchor {
+    bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .allOptionsSection {
+    padding-top: 175px;
+    width: 785px;
+  }
+
+  .anchorWrap {
+    position: relative;
+  }
+
+  .anchor {
+    position: absolute;
+    top: -175px;
+  }
+
+  .topAnchor {
+    padding: 0 11px;
+    padding-bottom: 4px;
+    top: 320px;
+    right: 330px;
+  }
+
+  .btns {
+    width: 600px;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  .allOptionsSectionTitle {
+    font-size: 80px;
+  }
+
+  .allOptionsSectionSpan {
+    line-height: 3;
+  }
+}

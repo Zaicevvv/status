@@ -1,0 +1,64 @@
+.map {
+  display: block;
+  width: 93.9vw;
+  height: 450px;
+  margin: 0 auto;
+}
+
+.mapWrap {
+  position: relative;
+  opacity: 0.5;
+  -moz-opacity: 0.5;
+  filter: alpha(opacity=50) black;
+  -khtml-opacity: 0.5;
+  background-color: #000;
+}
+
+.moveIcon {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 14px;
+  left: 62vw;
+  visibility: hidden;
+}
+
+.move {
+  position: absolute;
+  top: 42px;
+  left: 59vw;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #3a84df;
+  visibility: hidden;
+}
+
+.move:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 532px) {
+  .move,
+  .moveIcon {
+    visibility: visible;
+  }
+}
+
+@media (min-width: 425px) {
+  .moveIcon {
+    top: 60px;
+    left: 170px;
+  }
+
+  .move {
+    top: 89px;
+    left: 160px;
+  }
+}
+
+@media (min-width: 768px) {
+  .map {
+    width: 98.6vw;
+  }
+}

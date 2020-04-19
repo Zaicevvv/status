@@ -1,0 +1,18 @@
+.wrapper {
+  position: relative;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.cardTitle {
+  text-align: center;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+}
