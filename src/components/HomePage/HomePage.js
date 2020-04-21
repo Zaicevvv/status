@@ -87,7 +87,7 @@ function HomePage() {
               <a className={css.link} href="tel:+380957572780">
                 +38(095)757-27-80
               </a>
-              <span>Николай Романович</span>
+              <span>Николай</span>
             </li>
             <li className={css.contactListItem}>
               <img src={loc} className={css.icon} />
