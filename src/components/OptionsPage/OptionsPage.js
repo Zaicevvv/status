@@ -4,9 +4,9 @@ import Header2 from '../Header2/Header2';
 
 const OptionsPage = () => (
   <Fragment>
+    <a className={css.anchor} id="all-options/toptop"></a>
     <Header2 />
     <section className={css.allOptionsSection}>
-      <a className={css.anchor} id="all-options/toptop"></a>
       <h1 className={css.allOptionsSectionTitle}>Список всех услуг</h1>
       <div className={css.btns}>
         <a className={css.btn} href="#all-options/diagnos">

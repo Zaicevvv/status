@@ -6,6 +6,7 @@
 .hat {
   display: flex;
   border-bottom: 1px solid white;
+  flex-wrap: wrap;
 }
 
 .logoImg {
@@ -24,11 +25,11 @@
 }
 
 .nav {
-  padding-top: 40px;
-  width: 600px;
+  width: 100%;
   margin-left: auto;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  padding: 16px 0;
 }
 
 .navItem {
@@ -74,6 +75,12 @@
     padding: 0 80px;
     padding-top: 20px;
     justify-content: start;
+  }
+
+  .nav {
+    justify-content: flex-end;
+    width: 200px;
+    padding-top: 40px;
   }
 
   .logoImg {

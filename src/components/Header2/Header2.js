@@ -13,7 +13,7 @@ const Header2 = () => (
       </a>
       <div className={css.nav}>
         <a className={css.navItem} href="#top">
-          Главная
+          Вернуться на главную
         </a>
       </div>
     </div>
