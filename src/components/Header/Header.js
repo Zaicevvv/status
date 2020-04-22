@@ -1,16 +1,17 @@
 import React from 'react';
 import Burger from '../Burger/Burger';
-// import logo from '../../images/logo.png';
+import logo from '../../images/logo.jpg';
 import css from './Header.module.css';
 
 const Header = () => (
   <div className={css.header}>
     <div className={css.hat}>
-      <img
-        className={css.logoImg}
-        src="https://static.wixstatic.com/media/ef4bd0_c66d96a4e3a94d6ca11aaffa962052a4~mv2.png/v1/fill/w_94,h_49,al_c,q_85,usm_0.66_1.00_0.01/Tune-Up-300x300_edited.webp"
-      />
-      <h1 className={css.logo}>СТО - STATUS</h1>
+      <a href="#top">
+        <img className={css.logoImg} src={logo} />
+      </a>
+      <a className={css.logo} href="#top">
+        СТО - STATUS
+      </a>
       {window.screen.width < 768 && <Burger />}
       {window.screen.width > 768 && (
         <div className={css.nav}>
@@ -38,6 +39,9 @@ const Header = () => (
       </a>
       <a className={css.btn} href="tel:+380738810607">
         {window.screen.width > 768 && 'Позвонить '}Life:)
+      </a>
+      <a className={css.btn} href="tel:+380978868899">
+        {window.screen.width > 768 && 'Позвонить '}Киевстар
       </a>
       <a className={css.btn} href="#map">
         Карта{window.screen.width > 768 && ' проезда'}

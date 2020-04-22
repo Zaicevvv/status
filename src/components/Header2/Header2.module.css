@@ -28,7 +28,7 @@
   width: 600px;
   margin-left: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 .navItem {
@@ -86,6 +86,6 @@
   }
 
   .btns {
-    width: 800px;
+    width: 600px;
   }
 }

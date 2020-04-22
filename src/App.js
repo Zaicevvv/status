@@ -1,6 +1,5 @@
 import React, { lazy, Suspense } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Header from './components/Header/Header';
 
 const HomePage = lazy(() =>
   import('./components/HomePage/HomePage' /* webpackChunkName: "home-page" */),
@@ -13,8 +12,7 @@ const OptionsPage = lazy(() =>
 );
 
 const App = () => (
-  <Suspense fallback={<h1>Loading...</h1>}>
-    <Header />
+  <Suspense fallback={<h1 style={{ textAlign: 'center' }}>Loading...</h1>}>
     <Switch>
       <Route path="/" exact component={HomePage} />
       <Route path="/all-options" component={OptionsPage} />

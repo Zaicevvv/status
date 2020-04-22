@@ -1,8 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Header from '../Header/Header';
 import Card from '../Card/Card';
 import Map from '../Map/Map';
 import css from './HomePage.module.css';
+import logo from '../../images/logo.jpg';
 import loc from '../../images/loc/baseline_location_on_white_24dp.png';
 import mail from '../../images/mail/baseline_contact_mail_white_24dp.png';
 import phone from '../../images/phone/baseline_call_white_24dp.png';
@@ -10,13 +12,14 @@ import turbo from '../../images/turbo.jpg';
 import dvig from '../../images/dvig.jpg';
 import gbc from '../../images/gbc.jpg';
 import gbo from '../../images/gbo.jpg';
-import hod from '../../images/hod.webp';
+import hod from '../../images/hod.jpg';
 import tnvd from '../../images/tnvd.jpg';
 import main from '../../images/main.jpg';
 
 function HomePage() {
   return (
     <div className={css.wrapper}>
+      <Header />
       <div className={css.body}>
         <a className={css.top} id="top"></a>
         <img src={main} className={css.mainImg} />
@@ -37,6 +40,9 @@ function HomePage() {
         <section className={css.optionsSection}>
           <a className={css.anchor} id="options"></a>
           <h2 className={css.title}>НАШИ УСЛУГИ</h2>
+          <NavLink to="/all-options" className={css.optionsBtn}>
+            Больше услуг
+          </NavLink>
           <ul className={css.list}>
             <li className={css.listItem}>
               <Card img={turbo} text={'РЕМОНТ ТУРБИН'} />
@@ -57,9 +63,6 @@ function HomePage() {
               <Card img={hod} text={'РЕМОНТ ХОДОВОЙ ЧАСТИ'} />
             </li>
           </ul>
-          <NavLink to="/all-options" className={css.optionsBtn}>
-            Больше услуг
-          </NavLink>
         </section>
         <section className={css.time}>
           <div className={css.timeWrap}>
@@ -81,13 +84,17 @@ function HomePage() {
             <li className={css.contactListItem}>
               <img src={phone} className={css.icon} />
               <span className={css.contactTitle}>Телефоны</span>
+              <span>Николай</span>
               <a className={css.link} href="tel:+380738810607">
                 +38(073)881-06-07
               </a>
               <a className={css.link} href="tel:+380957572780">
                 +38(095)757-27-80
               </a>
-              <span>Николай</span>
+              <span>Виталий</span>
+              <a className={css.link} href="tel:+380978868899">
+                +38(097)886-88-99
+              </a>
             </li>
             <li className={css.contactListItem}>
               <img src={loc} className={css.icon} />
@@ -124,11 +131,12 @@ function HomePage() {
         </section>
       </div>
       <div className={css.footer}>
-        <img
-          className={css.logoImg}
-          src="https://static.wixstatic.com/media/ef4bd0_c66d96a4e3a94d6ca11aaffa962052a4~mv2.png/v1/fill/w_94,h_49,al_c,q_85,usm_0.66_1.00_0.01/Tune-Up-300x300_edited.webp"
-        />
-        <h1 className={css.logo}>СТО - STATUS</h1>
+        <a href="#top">
+          <img className={css.logoImg} src={logo} />
+        </a>
+        <a className={css.logo} href="#top">
+          СТО - STATUS
+        </a>
       </div>
     </div>
   );

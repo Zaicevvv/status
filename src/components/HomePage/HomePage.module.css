@@ -1,5 +1,5 @@
 html {
-  background: linear-gradient(to left, #181a1b, #111613);
+  background: #111613;
   font-family: Montserrat, sans-serif;
 }
 
@@ -186,13 +186,16 @@ body {
 .logoImg {
   background-color: #111613;
   height: 50px;
-  width: 80px;
+  width: 100px;
 }
 
 .logo {
   padding-left: 10px;
   color: white;
   font-size: 24px;
+  font-weight: 900;
+  line-height: 2.5;
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
@@ -244,7 +247,7 @@ body {
 
   .logoImg {
     height: 60px;
-    width: 100px;
+    width: 120px;
   }
 
   .logo {
