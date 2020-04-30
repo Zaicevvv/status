@@ -15,17 +15,19 @@
 }
 
 .moveIcon {
-  position: absolute;
   width: 30px;
   height: 30px;
-  top: 14px;
-  left: 62vw;
+  /* top: 14px; */
+  /* left: 62vw; */
   visibility: hidden;
 }
 
 .move {
   position: absolute;
-  top: 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 12px;
   left: 59vw;
   text-decoration: none;
   font-family: sans-serif;
