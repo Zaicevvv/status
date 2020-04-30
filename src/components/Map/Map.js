@@ -3,7 +3,7 @@ import css from './Map.module.css';
 
 const Map = () => (
   <div className={css.mapWrap}>
-    <a className={css.move} href="https://goo.gl/maps/TtBF5GJ2PyjSnxMZ6">
+    <a className={css.move} href="https://maps.google.com/maps?ll=50.440528,30.406935&z=19&t=m&hl=ru&gl=UA&mapclient=embed&cid=17511548314430628411">
       <img
         className={css.moveIcon}
         src="https://img.icons8.com/ultraviolet/40/000000/collect.png"
