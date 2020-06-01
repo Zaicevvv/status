@@ -7,5 +7,5 @@ ReactDOM.render(
   <HashRouter basename="/">
     <Route component={App} />
   </HashRouter>,
-  document.querySelector('#rot'),
+  document.querySelector('#root'),
 );
